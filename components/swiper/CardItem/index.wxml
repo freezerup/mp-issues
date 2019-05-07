@@ -1,0 +1,12 @@
+<view class="content">
+  <view class="default-img" wx:if="{{currentIndex + 1 < index || currentIndex - 1 > index}}">
+    loading（只渲染当前卡片及其前后各一张卡片的内容）
+  </view>
+  <view wx:else class="container">
+    <view class="title">此处是卡片里正常渲染的内容</view>
+    <view class="name">{{data.name}}</view>
+    <view class="image">
+      <image src="{{data.url}}" mode="widthFix"></image>
+    </view>
+  </view>
+</view>

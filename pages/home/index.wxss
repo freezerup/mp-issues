@@ -1,0 +1,10 @@
+
+.navigator {
+  padding: 20rpx 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #efefef;
+  font-size: 36rpx;
+  color: #212121;
+}

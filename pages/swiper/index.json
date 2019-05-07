@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card-item": "/components/swiper/CardItem/index"
+  },
+  "navigationBarTitleText": "swiper组件"
+}

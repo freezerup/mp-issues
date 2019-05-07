@@ -1,0 +1,6 @@
+<view>
+  <navigator class="navigator" url="/pages/swiper/index" hover-class="none" open-type="navigate">
+    <text>swiper</text>
+    <text>></text>
+  </navigator>
+</view>

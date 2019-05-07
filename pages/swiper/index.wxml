@@ -1,0 +1,9 @@
+<view class="page-container">
+  <view class="swiper-wrapper">
+    <swiper class="swiper" current="{{currentIndex}}" previous-margin="50rpx" next-margin="20rpx"  bindchange="handleChangeSwiper">
+      <swiper-item wx:for="{{swiperData}}" wx:key="index"  class="swiper-item">
+        <card-item data="{{item}}" index="{{index}}" currentIndex="{{currentIndex}}"></card-item>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+
+.page-container {
+  min-height: 100vh;
+}
+.swiper-wrapper {
+  height: 800rpx;
+}
+.swiper {
+  height: 100%;
+}
