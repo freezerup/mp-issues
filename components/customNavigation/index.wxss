@@ -1,0 +1,36 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.custom-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tool-bar {
+  flex: 0 0 64rpx;
+}
+
+.main {
+  flex: 1;
+}
+
+.back {
+  display: inline-block;
+  height: 32rpx;
+  width: 32rpx;
+  margin-left: 30rpx;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAQlBMVEUAAAAZGRkXFxcXFxcZGRkZGRkaGhoZGRkaGhoZGRkaGhoVFRUZGRkUFBQZGRkaGhoZGRkZGRkaGhobGxsVFRUaGhoC0h4HAAAAFXRSTlMA8zcgKfbu6Dzr5DDhG49jV7aLEwyI/mwHAAAAgklEQVRIx93QSw6AIAxF0RalqIh/9r9VTdQ4tG9A0vDG5w5a+psbMy+kX+fzNQf6PGm9u33etJ5vLwnzHG15QX1b1vfGfEB9Y8sPxvyo9I08PpFuE+jxIMl3AvikSopgs2jRoq+kkJKFR4vuLSJaMFyEAy1mAouZsIJ30i+u3i/07QTGqBoB0PTnHgAAAABJRU5ErkJggg==") no-repeat;
+  background-size: contain;
+}

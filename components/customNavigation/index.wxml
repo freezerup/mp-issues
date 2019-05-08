@@ -1,0 +1,10 @@
+<view class="custom-nav {{fixed? 'fixed': ''}}" style='background: {{background}}; height:{{navHeight}}px'>
+  <view class="status-bar" style='height: {{statusBarHeight}}px;width:100%;'></view>
+  <view class="nav">
+    <view class="tool-bar" wx:if="{{isTool}}">
+      <navigator class="back" hover-class="none" open-type="navigateBack"></navigator>
+    </view>
+    <view class="main"><slot></slot></view>
+    <view style="width:{{capsuleWidth}}px;height:{{capsuleHeight}}px;padding-right:{{capsulePaddingRight}}px"></view>
+  </view>
+</view>

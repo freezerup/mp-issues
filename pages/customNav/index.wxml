@@ -1,0 +1,10 @@
+<view class="page-container">
+  <view class="head">
+    <custom-nav fixed="{{false}}" background="#A28A7D">
+      <view><input type="text" /></view>
+    </custom-nav>
+  </view>
+  <view class="section">
+    <view wx:for="{{50}}" wx:key="index">text{{index}}</view>
+  </view>
+</view>

@@ -1,13 +1,17 @@
 {
   "pages": [
     "pages/home/index",
-    "pages/swiper/index"
+    "pages/swiper/index",
+    "pages/customNav/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "my issues",
     "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "custom-nav": "components/customNavigation/index"
   },
   "networkTimeout": {
     "request": 10000,

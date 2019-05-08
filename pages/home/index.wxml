@@ -3,4 +3,8 @@
     <text>swiper</text>
     <text>></text>
   </navigator>
+  <navigator class="navigator" url="/pages/customNav/index" hover-class="none" open-type="navigate">
+    <text>customNavigation</text>
+    <text>></text>
+  </navigator>
 </view>
