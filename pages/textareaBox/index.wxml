@@ -1,0 +1,19 @@
+<view style="bottom: {{keywordHeight}}px" class="edit-wrapper">
+  <view class="edit-model" bind:touchstart="handleCancelEdit"></view>
+  <view class="edit-box">
+    <view class="input-box">
+      <textarea-box 
+        fixed="{{true}}" 
+        focus="{{true}}" 
+        cursor-spacing="10" 
+        maxLineCount="{{3}}" 
+        placeholder="{{placeholder}}" 
+        maxLength="200" 
+        content="{{value}}"  
+        bind:changeValue="changeTextareaValue"
+        bind:getKeywordHeight="setKeywordHeight"
+      />
+    </view>
+    <view class="confirm" catchtap="sendComment">发送</view>
+  </view>
+</view>

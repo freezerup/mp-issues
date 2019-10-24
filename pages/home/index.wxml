@@ -7,4 +7,8 @@
     <text>customNavigation</text>
     <text>></text>
   </navigator>
+    <navigator class="navigator" url="/pages/textareaBox/index" hover-class="none" open-type="navigate">
+    <text>textareaBox</text>
+    <text>></text>
+  </navigator>
 </view>

@@ -1,0 +1,11 @@
+.textarea  {
+  width: 100%;
+}
+.post_placeholder_class {
+  font-size:32px;
+  color:#b1b1b1;
+}
+.topic_placeholder_class {
+  font-size:26px;
+  color:#b1b1b1;
+}

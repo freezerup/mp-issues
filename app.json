@@ -2,7 +2,8 @@
   "pages": [
     "pages/home/index",
     "pages/swiper/index",
-    "pages/customNav/index"
+    "pages/customNav/index",
+    "pages/textareaBox/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,5 +18,6 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }

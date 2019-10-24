@@ -1,0 +1,18 @@
+<textarea 
+  style="height:{{height}}rpx; font-size: {{fontSize}}rpx" 
+  fixed="{{isFixed}}" 
+  class="textarea" 
+  cursor-spacing="{{cursorSpacing}}"
+  focus="{{focus}}" 
+  auto-height="{{autoHeight}}" 
+  value="{{content}}" 
+  maxlength="{{maxLength}}"
+  adjust-position="{{false}}"
+  placeholder-class="{{placeholderClass}}"
+  placeholder="{{placeholder}}" 
+  bindinput="bindTextareaInput" 
+  bindblur="bindTextareaBlur" 
+  bindfocus="bindTextareaFocus"
+  bindlinechange="bindTextareaLineChange" 
+></textarea>
+

@@ -11,6 +11,8 @@
 	"libVersion": "2.6.6",
 	"appid": "wxcb849938e566d2d3",
 	"projectname": "mp-issues",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

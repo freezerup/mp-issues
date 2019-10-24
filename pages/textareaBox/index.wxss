@@ -1,0 +1,42 @@
+.edit-wrapper {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  z-index: 49;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-model {
+  flex-shrink: 1;
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.edit-box {
+  width: 100%;
+  padding: 10rpx 17rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+}
+.edit-box .input-box {
+  flex: 1;
+  padding: 17rpx 30rpx;
+  background: #F6F6F6;
+  border-radius: 10rpx;
+}
+.edit-box .textarea {
+  width: 100%;
+}
+.edit-box .confirm {
+  flex: 0 0 120rpx;
+  min-width: 120rpx;
+  font-size: 30rpx;
+  font-family: PingFangSC;
+  color: #222121;
+  text-align: center;
+}
